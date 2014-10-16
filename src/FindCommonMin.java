@@ -1,4 +1,4 @@
-public class FindMin {
+public class FindCommonMin {
     public static void main(String[] args) {
         int[] array1 = {2,5,6};
         int[] array2 = {6,7,8};
@@ -9,7 +9,7 @@ public class FindMin {
     public static int findCommonMinFromArrays(int[] array1, int[] array2, int[] array3){
         // assumption - arrays are sorted
 
-        // start assuming first element is common min
+        // start by assuming first element is common min
         int index1 = 0;
         int index2 = 0;
         int index3 = 0;

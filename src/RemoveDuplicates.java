@@ -9,7 +9,7 @@ public class RemoveDuplicates {
     public static String removeDuplicates(String input){
         int length = input.length();
         StringBuilder sb = new StringBuilder();
-        Set<Character> uniqueSet = new HashSet<Character>();
+        Set<Character> uniqueSet = new HashSet<Character>(); // O(n) space
         for(int i = 0; i < length; i++){ // O(n)
             char c = input.charAt(i);
             if(!uniqueSet.contains(c)){
