@@ -9,10 +9,13 @@ public class ReverseSinglyLinkedList {
             node.setNext(nextNode);
             node = nextNode;
         }
+        System.out.println("Original list:");
         printLinkedList(head);
         head = reverseLinkedListRecursively(head); // O(n)
+        System.out.println("Reversed list:");
         printLinkedList(head);
         head = reverseLinkedListIteratively(head); // O(n)
+        System.out.println("Reversed again:");
         printLinkedList(head);
     }
 
