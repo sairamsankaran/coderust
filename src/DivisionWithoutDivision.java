@@ -33,7 +33,7 @@ public class DivisionWithoutDivision {
         }
         int c = b;
         while(c < a){
-            c = c << 1;
+            c = c << 1; // multiply by 2 until c exceed a
             quotient = quotient << 1;
         }
         c = c >> 1;
